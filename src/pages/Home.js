@@ -5,11 +5,13 @@ import {
 } from '@chakra-ui/react';
 
 import Map from '../components/Map';
+import PlaceDetails from '../components/PlaceDetails';
 
 function Home() {
     return (
         <Box id='home' className='home'>
             <Map />
+            <PlaceDetails />
         </Box>
     );
 }

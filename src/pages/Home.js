@@ -3,12 +3,13 @@ import {
     Box,
     Text
 } from '@chakra-ui/react';
-import Footer from '../components/Footer';
+
+import Map from '../components/Map';
 
 function Home() {
     return (
         <Box id='home' className='home'>
-            <Text>Home</Text>
+            <Map />
         </Box>
     );
 }
